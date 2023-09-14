@@ -391,26 +391,38 @@ form i {
     border: none;
 }
 .img-section {
-    background-image: url(images/chillis\ logo.jpeg);
+    background-image: url(images/drinks/chilis.jpeg);
     background-size: cover;
-    max-width: 500px;
+    max-width: 350px;
     height: 250px;
     overflow: hidden;
     box-shadow: var(--box-shadow);
-    /* margin-inline-start: 0px;
-    margin-inline-end: 10px; */
     margin-bottom: 20px;
     margin-top: 40px;
     align-items: center;
 
 }
 
+body {
+    margin: auto;
+}
+.landing-menu{
+    max-width: 350px;
+    margin-top: 20px;
+    margin-left: -30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    border: none;
+    outline: none;
+}
 .section-end {
     align-items: center;
     text-align: center;
 }
 .changing-image {
-    min-width: 500px;
+    max-width: 500px;
+    margin-inline: 42.5%;
 }
 
 .changing-image {
