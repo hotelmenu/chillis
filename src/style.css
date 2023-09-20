@@ -283,16 +283,20 @@ a {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 .food{
     background-image: url(../images/food/platter.jpeg);
     background-size: cover;
+    height: 200px;
+    align-items: center;
 }
 
 .bar {
     background-image: url(../images/bottles/bottle\ service.jpeg);
     background-size: cover;
+    height: 200px;
+    align-items: center;
 }
 
 /* !restaurant starts here */
