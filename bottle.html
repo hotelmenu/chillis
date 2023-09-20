@@ -3,69 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
-    <title>Bottles</title>
+    <title>Chilli's Menu</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
-    <section class="changing-image">
-        <img src="./images/bottle service.jpeg" alt="">
-        <form>
-        <i class="fas fa-search"></i>
-        <input type="search" name="" id="search-bar" placeholder="Search for a brand" onkeyup="search()">
-        </form>
-    </section>
     
-<div class="divider">
-        <section class="empty">
-
-        </section>
- 
-<section class="product-menu drinks">
-                            <h1>Gin</h1>
-    <!-- product Six -->
-       
-
-                
-
-           
-
-          
-
-             
-
-
-
-            
-        
-    
- 
-     
-        
-      
-
-
-  
-    
-
-            
-
-             
-                
-        
-
-
-        </section>
-
- <div class="call-area">
-            <a href="tel:+254111593229"><h1>Order Delivery</h1></a>
+    <div class="navbar">
+        <a href="liqour.html">
+            <h2 class="back-btn">Go Back</h2>
+        </a>
+    <a href="cart.html">
+        <div class="cart">
+            <i class="bi bi-cart2"></i>
+            <div class="cartAmount" id="cartAmount">0</div>
         </div>
-</div>
-    <script src="script.js" defer></script>
-<!-- Jesus is king -->
-</body>
+    </a>
+    </div>
 
+
+    <div class="shop" id="shop">
+    </div>
+
+    
+</body>
+<script src="./src/bottle.js"></script>
+<script src="./src/main.js"></script>
 </html>
