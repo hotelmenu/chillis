@@ -20,7 +20,7 @@ let shopItemsData = [//vodka
 }, {
     id: "bottle40", 
     name: "Sminoff Vodka 1 ltr", 
-    price: 3000, 
+    price: 3500, 
     desc: "", 
     img: "./images/bottles/sminoff vodka 750ml.jpeg"
 }, {
