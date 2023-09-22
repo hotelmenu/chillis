@@ -39,7 +39,7 @@ let shopItemsData = [//whisky
 }, {
     id: "bottle49", 
     name: "Grants 1ltr", 
-    price: 3500, 
+    price: 4000, 
     desc: "", 
     img: "./images/bottles/grants 1ltr.jpeg"
 }, {
@@ -231,7 +231,7 @@ let shopItemsData = [//whisky
 }, {
     id: "bottle80", 
     name: "Vat 69 750ml", 
-    price: 2500, 
+    price: 3000, 
     desc: "", 
     img: "./images/bottles/vat 69.jpeg"
 }, {
